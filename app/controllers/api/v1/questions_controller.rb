@@ -72,12 +72,3 @@ module Api
     end
   end
 end
-
-# 15.times {
-#   question = Question.new
-#   question.title = Faker::Lorem.question
-#   question.description = Faker::Lorem.paragraph(sentence_count: (3..7).to_a.sample)
-#   question.tags = Faker::Lorem.words.join(",")
-#   question.user = User.last
-#   question.save
-# }

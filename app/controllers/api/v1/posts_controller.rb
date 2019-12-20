@@ -30,12 +30,3 @@ module Api
     end
   end
 end
-
-# 15.times {
-#   post = Post.new
-#   post.title = Faker::Lorem.post
-#   post.description = Faker::Lorem.paragraph(sentence_count: (3..7).to_a.sample)
-#   post.tags = Faker::Lorem.words.join(',')
-#   post.user = User.last
-#   post.save
-# }
